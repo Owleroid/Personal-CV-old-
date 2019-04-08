@@ -269,19 +269,13 @@ h2 {
     justify-content: space-between;
 }
 
-.skills:hover p,
-.software:hover p {
-    color: #ffffff;
-    cursor: pointer;
-}
-
 .skills p,
 .software p {
     margin-top: 15px;
     font-size: 15px;
     font-weight: 300;
     text-decoration: none;
-    color: #64657a;
+    color: #ffffff;
 }
 
 .progress-bar {
@@ -292,68 +286,8 @@ h2 {
     background-color: #64657a;
 }
 
-#html-progress {
-    width: 90%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#css-progress {
-    width: 90%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#js-progress {
-    width: 70%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#node-progress {
-    width: 60%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#mongodb-progress {
-    width: 65%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#vue-progress {
-    width: 10%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#solidity-progress {
-    width: 70%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#photoshop-progress {
-    width: 85%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#illustrator-progress {
-    width: 85%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#avocode-progress {
+#progress {
     width: 100%;
-    height: 100%;
-    background-color: #76b76d;
-}
-
-#linux-progress {
-    width: 60%;
     height: 100%;
     background-color: #76b76d;
 }
@@ -371,6 +305,19 @@ h2 {
     background-color: #ce3a67;
     color: #ffffff;
     text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between
+}
+
+.links a {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #tooltip {
